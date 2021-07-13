@@ -1,31 +1,22 @@
 [
- 
- { "remote"      : "blobs",
-   "branch"      : "eleven",
-   "repository"  : "kernel_motorola_sdm632",
-   "target_path" : "kernel/motorola-sdm632"
- },  
-
- { "remote"      : "blobs",
-   "branch"      : "eleven",
-   "repository"  : "device_motorola_sdm632-common",
-   "target_path" : "device/motorola/sdm632-common"
- }, 
-
- {
-   "remote"      : "blobs",
-   "branch"      : "eleven",
-   "repository"  : "vendor_motorola_sdm632-common",
-   "target_path" : "vendor/motorola/ocean"
- },
-
- {
-   "remote"      : "blobs",
-   "branch"      : "eleven",  
-   "repository"  : "vendor_motorola_ocean",
-   "target_path" : "vendor/motorola/ocean"
+   {
+      "repository":"kernel_motorola_sdm632",
+      "target_path":"kernel/motorola/sdm632"
+   },
+   {
+      "repository":"device_motorola_sdm632-common",
+      "target_path":"device/motorola/sdm632-common"
+   },
+   {
+      "remote":"blobs",
+      "branch":"eleven",
+      "repository":"vendor_motorola_ocean",
+      "target_path":"vendor/motorola/ocean"
+   },
+   {
+      "remote":"blobs",
+      "branch":"eleven",
+      "repository":"vendor_motorola_sdm632-common",
+      "target_path":"vendor/motorola/ocean"
    }
-
 ]
-
-
